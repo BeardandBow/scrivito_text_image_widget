@@ -1,0 +1,78 @@
+.scrivito-text-image-image {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+.scrivito-text-image-image img {
+  max-width: 100%;
+}
+
+.scrivito-text-image-image .scrivito-text-image-description {
+  margin: 3px 0 10px;
+  padding: 10px;
+  font-size: 0.7em;
+  line-height: 0.7em;
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.scrivito-text-image-float-left {
+  float: left;
+  margin-right: 10px;
+}
+
+.scrivito-text-image-float-center {
+  float: none;
+  margin: auto;
+}
+
+.scrivito-text-image-float-right {
+  float: right;
+  margin-left: 10px;
+}
+
+.scrivito-text-image-size-small {
+  width: 100px;
+}
+
+.scrivito-text-image-size-medium {
+  width: 200px;
+}
+
+.scrivito-text-image-size-large {
+  width: 300px;
+}
+
+.scrivito-text-image-size-very-large {
+  width: 300px;
+}
+
+.scrivito-text-image-size-full {
+  width: 100%;
+  float: none;
+}
+
+@media(max-width: 750px) {
+  .scrivito-text-image-mobile-size-small {
+    width: 100px;
+  }
+
+  .scrivito-text-image-mobile-size-medium {
+    width: 200px;
+  }
+
+  .scrivito-text-image-mobile-size-large {
+    width: 300px;
+  }
+
+  .scrivito-text-image-size-very-large {
+    width: 500px;
+  }
+
+  .scrivito-text-image-mobile-size-large {
+    width: 100%;
+    float: none;
+  }
+}

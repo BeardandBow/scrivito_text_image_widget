@@ -1,0 +1,10 @@
+<div class="scrivito-text-image-widget">
+  <div class="scrivito-text-image-image <%= widget.image_floating_class %> <%= widget.image_size_class %>">
+    <%= scrivito_image_tag widget, :image, class: "", alt: widget.alt_text %>
+    <% if widget.image_description.present? || scrivito_in_editable_view? %>
+      <%= scrivito_tag :div, widget, :image_description, class: "scrivito-text-image-description #{widget.background_color}" %>
+    <% end %>
+  </div>
+
+  <%= scrivito_tag :div, widget, :text, class: 'scrivito-text-image-text' %>
+</div>

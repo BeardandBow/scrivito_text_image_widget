@@ -1,0 +1,19 @@
+<%= scrivito_details_for t('scrivito_text_image_widget.details.floating', default: 'Floating') do %>
+  <%= scrivito_tag :div, widget, :floating %>
+<% end %>
+
+<%= scrivito_details_for t('scrivito_text_image_widget.details.image_size', default: 'Image Size') do %>
+  <%= scrivito_tag :div, widget, :image_size %>
+<% end %>
+
+<%= scrivito_details_for t('scrivito_text_image_widget.details.image_size_monile', default: 'Image Size Mobile') do %>
+  <%= scrivito_tag :div, widget, :image_size_mobile %>
+<% end %>
+
+<%= scrivito_details_for t('scrivito_text_image_widget.details.alt_text', default: 'Alternative Text') do %>
+  <%= scrivito_tag :div, widget, :alt_text %>
+<% end %>
+
+<%= scrivito_details_for t('scrivito_text_image_widget.details.background_color', default: 'Background Color') do %>
+  <%= scrivito_tag :div, widget, :background_color, data: {colors_list: widget.scrivito_selectable_color_classes} %>
+<% end %>
