@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Scrivito"]
   s.email       = ["support@scrivito.com"]
   s.homepage    = "https://www.scrivito.com"
-  s.summary     = "Scrivito Widget to add a text image widget."
-  s.description = "Scrivito Widget to add a text image widget."
+  s.summary     = "Scrivito Widget to add a text image widget with editable floating, image description and styleoptions."
+  s.description = "Scrivito Widget to add a text image widget with editable floating, image description and styleoptions."
   s.license     = "LGPL-3.0"
 
   s.files = Dir[
